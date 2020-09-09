@@ -94,41 +94,65 @@ body{
   margin-left: 15%;
 }
 
+.main > div{
+  padding: 10px;
+  float: left;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.main h2{
+  color: #705a47;
+  padding-bottom: 10px;
+}
+
+.main li{
+  list-style: none;
+  padding: 3px;
+}
+
+/* COLONNA DI SX */
 .left{
-  width: calc(100% / 3 - (60px / 3));
-  height: 200px;
-  background-color: purple;
-  float: left;
+  background-color: white;
+  width: calc(100% / 4 - (60px / 3));
 }
 
+.left a{
+  text-decoration: none;
+  color: green;
+}
+
+/* COLONNA CENTRALE */
 .central{
-  width: calc(100% / 3 - (60px / 3));
-  height: 400px;
-  background-color: lightblue;
   margin-left: 30px;
-  float: left;
+  background-color: white;
+  width: calc(100% / 2 - (60px / 3));
 }
 
+/* COLONNA DI DX */
 .right{
-  width: calc(100% / 3 - (60px / 3));
-  height: 200px;
   margin-left: 30px;
-  float: left;
+  background-color: none;
+  width: calc(100% / 4 - (60px / 3));
 }
 
 /* DIV ALL'INTERNO DI .RIGHT */
-.first{
+
+.right div{
+  padding: 10px;
   width: 100%;
-  height: 190px;
-  background-color: red;
+   border-radius: 5px;
+   padding-top: 0;
+   background-color: white;
+}
+.first{
   margin-bottom: 20px;
 }
 
 .second{
-  width: 100%;
-  height: 190px;
-  background-color: red;
+  margin-bottom: 20px;
 }
+
+
 /* FINE MAIN */
 
 
