@@ -74,8 +74,9 @@ body{
 .header-menu button:first-of-type{
   margin-left: 10%;
 }
-
-
+.header-menu button:hover{
+  background-color: rgb(110,110,110);
+}
 
 /* FINE HEADER */
 
@@ -121,6 +122,20 @@ body{
   color: green;
 }
 
+.left-text::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+.rss{
+  float: left;
+  width: 30%;
+}
+.left-text h2{
+  float: left;
+  width: 60%;
+}
+
 /* COLONNA CENTRALE */
 .central{
   margin-left: 30px;
@@ -162,10 +177,14 @@ body{
 
 .footer{
   margin: 10px;
-  width: calc(100% - 20px);
-  height: 100px;
-  background-color: beige;
+  width: 70%;
+  margin-left: 15%;
+  background-color: white;
+  border-radius: 5px;
   float: left;
+  text-align: center;
+  color:#cecece;
+  font-family: 'Roboto', sans-serif;
 }
 
 .footer::after{
@@ -173,4 +192,17 @@ body{
   display: table;
   clear: both;
 }
+
+.footer li{
+  list-style: none;
+  float:left;
+  width: calc(70% / 3);
+  padding: 20px;
+  vertical-align: middle;
+}
+
+.footer li:first-of-type{
+  margin-left: 15%;
+}
+
 /* FINE FOOTER */
